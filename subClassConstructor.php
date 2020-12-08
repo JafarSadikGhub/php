@@ -4,7 +4,7 @@ class WildCat
     public $fur;
     function __construct() 
     {
-        this->fur = "TRUE";
+        $this->fur = "TRUE";
     }
 }
 class Tiger extends WildCat
@@ -14,7 +14,7 @@ class Tiger extends WildCat
     function __construct() 
     {
         parent::__construct();
-        this->stripes = "TRUE";
+        $this->stripes = "TRUE";
     }
 }
 $ob = new Tiger();
